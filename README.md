@@ -6,6 +6,8 @@ Implementation of the each technique can be found under the main folder. BF stan
 
 Implementation of the techniques are publicly available. In addition, the way to run the techniques is explained in a ReadMe file.
 
+PS: We used two different dataset to compare the effectiveness of the techniques. The datasets are also publicly available under DATASET folder.
+
 # Dependencies of the project
 
 solidity compiler - this project tested under two different solidity compiler version 0.4.25 && 0.5.3
