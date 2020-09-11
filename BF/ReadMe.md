@@ -4,7 +4,13 @@ BF implementation takes two arguments as inputs – the Application Binary Inter
 the Solidity compiler.  Our implementation supports all Solidity types such as signed/unsigned integers types with widths ranging from 8 to 256 bits. The generated
 inputs call each of the functions in the smart contract and are written into a JSON file.
 
+# Way to generate Solidity dependent file - ABI, OPCODE, BYTECODE 
 
+solc SAMPLECONTRACT.SOL --abi >> $ABI_FILE
+
+solc SAMPLECONTRACT.SOL --bin >> $BYTECODE_FILE
+
+solc SAMPLECONTRACT.SOL --opcodes >> $OPCODE_FILE
 
 
 
